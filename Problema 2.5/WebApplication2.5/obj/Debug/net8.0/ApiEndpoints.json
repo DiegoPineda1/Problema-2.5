@@ -1,0 +1,97 @@
+[
+  {
+    "ContainingType": "WebApplication2._5.Controllers.ProductoControlle",
+    "Method": "GetAll",
+    "RelativePath": "api/ProductoControlle",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication2._5.Controllers.ProductoControlle",
+    "Method": "Post",
+    "RelativePath": "api/ProductoControlle",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "producto",
+        "Type": "Problema_2._5.Models.PRODUCTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication2._5.Controllers.ProductoControlle",
+    "Method": "Put",
+    "RelativePath": "api/ProductoControlle",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "producto",
+        "Type": "Problema_2._5.Models.PRODUCTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication2._5.Controllers.ProductoControlle",
+    "Method": "Delete",
+    "RelativePath": "api/ProductoControlle",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "producto",
+        "Type": "Problema_2._5.Models.PRODUCTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication2._5.Controllers.ProductoControlle",
+    "Method": "Get",
+    "RelativePath": "api/ProductoControlle/{codigo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "codigo",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication2._5.Controllers.ProductoControlle",
+    "Method": "Delete",
+    "RelativePath": "api/ProductoControlle/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
